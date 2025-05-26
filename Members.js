@@ -18,29 +18,27 @@ import MpumeleloImg from './images/Zulu Mpumelelo.jpeg';
 import UvuyoImg from './images/Uvuyo Teba.jpeg';
 import ZethuImg from './images/zethu Tolbani.jpeg';
 import QhamileImg from './images/Qhamile Mgogodlana.jpeg';
-import EmihleImg from './images/Emihle.jpeg';
-import RayImg from './images/Ray Blaaw.jpeg';
-import AkhoImg from './images/Akho Doyi.jpeg';
-import NabaImg from './images/Naba Wande Coko.jpeg';
+import EmihleImg from './images/Emihle_Sam.jpeg';
+import DiffyImg from './images/Diffy Faku.jpeg';
 import AthimnaImg from './images/Athimna Donkile.jpeg';
 import EsonaImg from './images/Esona Ngwevela.jpeg';
-import IvakeleImg from './images/Ivakele Shenxane.jpeg';
+import BuhleImg from './images/Buhle Tom.jpeg';
 import LwaziImg from './images/Lwazi Solani.jpeg';
-import JuniorImg from './images/Junior Fana.jpeg';
+import AnoxoloImg from './images/Anoxolo Roy.jpeg';
 import YolethaImg from './images/Yoletha Jack.jpeg';
 import NandiImg from './images/Nandi Vokwana.jpeg';
 import AviweImg from './images/Aviwe Mdleleni.jpeg';
-import MbaliImg from './images/Mbali.jpeg';
+import MbaliImg from './images/Mbali George.jpeg';
 import BelindaImg from './images/Belinda Bobby.jpeg';
 import LiyemaImg from './images/Liyema Nunu.jpeg';
 import KeoratileImg from './images/Keoratile.jpeg';
 import SibuleleImg from './images/Sibulele Rwadi.jpeg';
-import AnoxoloImg from './images/Anoxolo Roy.jpeg';
+import IngaImg from './images/Inga.jpeg';
 import SamkeloImg from './images/Samkelo Silwangangubo.jpeg';
 
 const members = [
-  { id: 1, name: 'Sibulele Rwadi', voicePart: 'Tenor', image: SibuleleImg },
-  { id: 2, name: 'Mbali', voicePart: 'Alto', image: MbaliImg },
+  { id: 1, name: 'Sibulele Rwadi', voicePart: 'Tenor & Conductor', image: SibuleleImg },
+  { id: 2, name: 'Mbali George', voicePart: 'Alto', image: MbaliImg },
   { id: 3, name: 'Liyema Nunu', voicePart: 'Alto & Soprano', image: LiyemaImg },
   { id: 4, name: 'Keoratile', voicePart: 'Alto', image: KeoratileImg },
   { id: 5, name: 'Belinda Bobby', voicePart: 'Soprano', image: BelindaImg },
@@ -48,7 +46,7 @@ const members = [
   { id: 7, name: 'Yoletha Jack', voicePart: 'Soprano', image: YolethaImg },
   { id: 8, name: 'Nandi Vokwana', voicePart: 'Soprano', image: NandiImg },
   { id: 9, name: 'Lwazi Solani', voicePart: 'Tenor', image: LwaziImg },
-  { id: 10, name: 'Junior Fana', voicePart: 'Tenor', image: JuniorImg },
+  { id: 10, name: 'Anoxolo Roy', voicePart: 'Bass', image: AnoxoloImg },
   { id: 11, name: 'Zulu Mpumelelo', voicePart: 'Tenor', image: MpumeleloImg },
   { id: 12, name: 'Zukhanye', voicePart: 'Tenor', image: ZukhanyeImg },
   { id: 13, name: 'Zizipho Ntuli', voicePart: 'Soprano', image: ZiziphoImg },
@@ -56,24 +54,20 @@ const members = [
   { id: 15, name: 'Vuyokazi Gxowa', voicePart: 'Alto', image: VuyokaziImg },
   { id: 16, name: 'Uvuyo Teba', voicePart: 'Tenor', image: UvuyoImg },
   { id: 17, name: 'Thulani Mtshwelo', voicePart: 'Tenor', image: ThulaniImg },
-  { id: 18, name: 'Ray Blaaw', voicePart: 'Soprano', image: RayImg },
   { id: 19, name: 'Qhamile Mgogodlana', voicePart: 'Djembe Master', image: QhamileImg },
   { id: 20, name: 'Oyama Ngeju', voicePart: 'Tenor', image: OyamaImg },
-  { id: 21, name: 'Naba Wande Coko', voicePart: 'Tenor', image: NabaImg },
   { id: 22, name: 'Lisakhanya Nunu', voicePart: 'Leader, Conductor & Bass', image: LisakhanyaImg },
-  { id: 23, name: 'Lisakhanya Mdoda', voicePart: 'Alto & Conductor', image: MdodaImg },
   { id: 24, name: 'Karabo Mbenja', voicePart: 'Alto', image: KaraboImg },
-  { id: 25, name: 'Ivakele Shenxane', voicePart: 'Alto', image: IvakeleImg },
-  { id: 26, name: 'Inga', voicePart: 'Alto' },
+  { id: 25, name: 'Buhle Tom', voicePart: 'Alto', image: BuhleImg },
   { id: 27, name: 'Esona Ngwevela', voicePart: 'Soprano', image: EsonaImg },
   { id: 28, name: 'Endinako Mngwabane', voicePart: 'Bass', image: EndinakoImg },
-  { id: 29, name: 'Emihle', voicePart: 'Soprano', image: EmihleImg },
+  { id: 29, name: 'Emihle Sam', voicePart: 'Soprano', image: EmihleImg },
   { id: 30, name: 'Chulumanco Donkile', voicePart: 'Bass', image: ChulumancoImg },
   { id: 31, name: 'Athimna Donkile', voicePart: 'Tenor', image: AthimnaImg },
   { id: 32, name: 'Athamndwe Mngcongco', voicePart: 'Alto', image: AthandweImg },
   { id: 33, name: 'Alutha Tyalane', voicePart: 'Alto', image: AluthaImg },
-  { id: 34, name: 'Akho Doyi', voicePart: 'Soprano', image: AkhoImg },
-  { id: 35, name: 'Anoxolo', voicePart: 'Bass', image: AnoxoloImg },
+  { id: 34, name: 'Diffy Faku', voicePart: 'Bass', image: DiffyImg },
+  { id: 35, name: 'Inga', voicePart: 'Alto', image: IngaImg },
   { id: 36, name: 'Samkelo Silwangangubo', voicePart: 'Bass', image: SamkeloImg },
 ];
 
